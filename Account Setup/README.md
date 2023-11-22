@@ -7,7 +7,7 @@ The first thing to set your role to **ACCOUNTADMIN** and create 2 virtual wareho
 1. **SNOWBANK_LOAD_WH**
 2. **SNOWBANK_TASK_WH**
 
-Ensure both warehouses are creates as Small and that the auto-suspend and auto-resume parameters are enabled. We will later grant permissions to different roles to use these warehouses in the setup script.
+Ensure both warehouses are created as small and that the auto-suspend and auto-resume parameters are enabled. We will later grant permissions to different roles to use these warehouses in the setup script.
 
 ## Run the setup script
 Run the [account setup](account_setup.sql) script to create the relevant roles and permission grants. 
