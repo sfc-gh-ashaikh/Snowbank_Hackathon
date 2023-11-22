@@ -19,9 +19,10 @@ The aim of this exercise will be to produce views and a dashboard answering the 
 ## Environment Settings
 
 **Role:** SNOWBANK_ANALYST
+
 **Warehouse:** SNOWBANK_ANALTYICS_WH
 
-##Regulatory Questions
+## Regulatory Questions
 
 What is the:
 
