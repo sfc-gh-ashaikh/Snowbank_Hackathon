@@ -4,7 +4,7 @@
 The Snowbank Financial Services Demonstration is built around a fictitious bank Snowbank which offers retail banking products to its 50M strong customer base in the US & Canada. Its business spans banking products (Chequing accounts, Saving accounts, Registered accounts) and also had a lending business to personal and commercial customers with a range of credit products (Credit Cards, Line of Credits, Mortgages).
 
 #### The Snowbank Data model is the following:
-![Snowbank_Data_Model](Snowbank%20Retail%20Banking/images/Snowbank_data_model.png)
+![Snowbank_Data_Model](images/Snowbank_data_model.png)
 
 The base data model is quite solid, and can be expanded to support additional use cases (Customer 360), but also regionalized by changing data in tables according to the scenario you want to customize it for.
 
