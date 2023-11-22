@@ -4,7 +4,7 @@
 
 In Canada, most banks, credit unions and other financial institutions holding customer deposits are [CDIC](https://www.cdic.ca/) member institutions. As a result, client deposits are insured up to $100k in certain types of accounts (Chequings, Savings, Registered Accounts). In order to benefit from this protection, CDIC member institutions have to provide daily data insights related to the list of depositors, accounts, transactions and other metadata to CDIC. In return, CDIC will provide them a hold file on CDIC hold balances on these accounts and a statement processing file as illustrated below.
 
-![CIDC Processing](images/CDIC_processing.png)
+![CIDC Processing](../images/CDIC_processing.png)
 
 This use case can be generalized into a compliance risk reporting use case, as the type of outputs it produces is about bank account balances across different type of banking products, and transactions made into these accounts.
 
@@ -14,9 +14,9 @@ In this particular demo, the scope will focus on the top part of the diagram whi
 
 The aim of this exercise will be to produce views and a dashboard answering the regulatory questions highlighted below. You can expect the output to look similar to the dashboard example below:
 
-![Compliance Dashboard](images/Compliance_Reporting_Dashboard)
+![Compliance Dashboard](../images/Compliance_Reporting_Dashboard.png)
 
-##Environment Settings
+## Environment Settings
 
 **Role:** SNOWBANK_ANALYST
 **Warehouse:** SNOWBANK_ANALTYICS_WH
@@ -36,5 +36,5 @@ What is the:
 
 The idea of this exercise is to get a feel for joining data in Snowflake and creating views/charts. 
 
-![Answers:](https://github.com/snowflakecorp/frostbytes/tree/main/Industry%20-%20Financial%20Services/Snowbank/Snowbank%20Retail%20Banking/40%20-%20analytics) Only Snowflake employees have access to this. Rely on your SE if you get stuck anywhere. 
+[Answers:](https://github.com/snowflakecorp/frostbytes/tree/main/Industry%20-%20Financial%20Services/Snowbank/Snowbank%20Retail%20Banking/40%20-%20analytics) Only Snowflake employees have access to this. Rely on your SE if you get stuck anywhere. 
 
