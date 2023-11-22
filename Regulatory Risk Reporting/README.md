@@ -19,7 +19,9 @@ The aim of this exercise will be to produce views and a dashboard answering the 
 ## Environment Settings
 
 **Role:** SNOWBANK_ANALYST
+
 **Database/Schema:** HACKATHON.ANALYTICS 
+
 **Warehouse:** SNOWBANK_ANALTYICS_WH
 
 ## Regulatory Questions
