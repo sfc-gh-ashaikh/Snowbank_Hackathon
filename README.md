@@ -1,1 +1,1 @@
-# Snowbank_Hackathon
+# Snowbank Hackathon
