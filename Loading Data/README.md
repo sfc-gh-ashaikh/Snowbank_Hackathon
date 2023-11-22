@@ -4,10 +4,10 @@ Before we can do any analysis and reporting we need to bring the data into our S
 ## Load Accounts Data
 The first thing we are going to do is load in our accounts data. The bank has 50 Million accounts and these are all spread over multiple CSV files that are held in an external stage. Complete the following steps to load the Accounts data in:
 
-1. Create an internal stage pointing to **s3://snowbank-hackathon/accounts_data/**
-2. Create an **ACCOUNTS** table
+1. Create an internal stage using your **RAW** schema pointing to **s3://snowbank-hackathon/accounts_data/**
+2. Create an **ACCOUNTS** table using the **ANALYTICS** Schema
 ```
-create or replace TABLE ACCOUNTS (
+create or replace TABLE ACCOUNTS_RAW (
 	ACCOUNT_UID STRING,
 	DEPOSITOR_ID STRING,
 	PRODUCT_CODE INT,
@@ -24,13 +24,14 @@ create or replace TABLE ACCOUNTS (
 );
 
 ```
-3. Load the data into the table using Snowflake's COPY INTO command
+3. Load the data into the table using Snowflake's **COPY INTO** command
 4. Truncate the table and increase the warehouse size to a large and repeat the loading of data into the ACCOUNTS table. Did you notice any difference in speed?
-5. 
 
-Ensure both warehouses are created as small and that the auto-suspend and auto-resume parameters are enabled. We will later grant permissions to different roles to use these warehouses in the setup script.
 
-## Run the setup script
-Run the [account setup](account_setup.sql) script to create the relevant roles and permission grants. 
+## Bring in the rest of the Snowbank data via Snowflake Share
+Everyone should have a Snowflake Hackathon data share showing up in their private sharing tab as shown below. Make sure to click **Get** and bring this data into your account. You will be using this data to join with the analytics data to create insights. To match up with the setup script make sure you name this database **SNOWBANK** as shown below.
 
-Once complete you are now ready to dive into ingesting some data. 
+![Private_listing](../images/listings.png)
+![Get_Data](../images/get.png)
+
+Now that we have brought data into the environment we can start doing some querying!

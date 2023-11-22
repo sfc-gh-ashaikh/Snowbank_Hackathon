@@ -11,8 +11,7 @@ The base data model is quite solid, and can be expanded to support additional us
 **Below is a guide of hackathon scenarios you will be walking through:**
   1. [Setup your account](Account%20Setup/README.md) by following the steps higlight in this setup script. This will create some roles, permissions and objects neccessary for you to use as you progress through the day. 
   2. [Loading data](Loading%20Data/README.md) This dataset contains 50 million records of bank account records spread across CSV files to be used as part of analysis and reporting.
-  2. [Regulatory risk reporting](https://github.com/snowflakecorp/frostbytes/tree/main/Industry%20-%20Financial%20Services/Snowbank/Snowbank%20Holistic%20Credit%20Risk%20Analysis) is a massive undertaking for the bank to ensure they are compliant with regulations. Help the bank bring together their banking and customer data and subsewuently build insights that will help the compliance teams gain oversight on CDIC requirements.  
+  3. [Regulatory risk reporting](https://github.com/snowflakecorp/frostbytes/tree/main/Industry%20-%20Financial%20Services/Snowbank/Snowbank%20Holistic%20Credit%20Risk%20Analysis) is a massive undertaking for the bank to ensure they are compliant with regulations. Help the bank bring together their banking and customer data and subsewuently build insights that will help the compliance teams gain oversight on CDIC requirements. 
+  4. 
   
-  demonstrates the power of the Snowflake Data Marketplace to get quick actionable insights about the Covid-19 credit risk by joining live shared data with the bank's own data.
-
-Depending on the customer interest, both these demos can be shown to a prospect, or a combination of both. If demonstrating to a technical audience, the Snowbank Retail Banking may be more suitable. If demonstrating to a business audience, the Snowbank Holistic Credit Risk Analysis may be more suitable as it is a Snowsight dashboard based demo and focuses on actionable insights.
+ =
