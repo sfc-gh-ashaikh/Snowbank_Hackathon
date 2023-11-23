@@ -5,7 +5,8 @@ Before we can do any analysis and reporting we need to bring the data into our S
 The first thing we are going to do is load in our accounts data. The bank has 50 Million accounts and these are all spread over multiple CSV files that are held in an external stage. Complete the following steps to load the Accounts data in:
 
 1. Create an internal stage using your **RAW** schema pointing to **s3://snowbank-hackathon/accounts_data/**
-2. Create an **ACCOUNTS** table using the **ANALYTICS** Schema
+2. Crate a CSV file format for the files. *hint: don't forget use a paramter to handle the gzip compression*
+3. Create an **ACCOUNTS** table using the **ANALYTICS** Schema
 ```
 create or replace TABLE ACCOUNTS_RAW (
 	ACCOUNT_UID STRING,
@@ -24,12 +25,12 @@ create or replace TABLE ACCOUNTS_RAW (
 );
 
 ```
-3. Load the data into the table using Snowflake's **COPY INTO** command
-4. Truncate the table and increase the warehouse size to a large and repeat the loading of data into the ACCOUNTS table. Did you notice any difference in speed?
+4. Load the data into the table using Snowflake's **COPY INTO** command
+5. Truncate the table and increase the warehouse size to a large and repeat the loading of data into the ACCOUNTS table. Did you notice any difference in speed?
 
 
 ## Bring in the rest of the Snowbank data via Snowflake Share
-Everyone should have a Snowflake Hackathon data share showing up in their private sharing tab as shown below. Make sure to click **Get** and bring this data into your account. You will be using this data to join with the analytics data to create insights. To match up with the setup script make sure you name this database **SNOWBANK** as shown below.
+Everyone should have a Snowflake Hackathon data share showing up in their private sharing tab as shown below. Make sure to click **Get** and bring this data into your account. You will be using this data to join with the analytics data to create insights. You can name this database **SNOWBANK_HACKATHON** as shown below.
 
 ![Private_listing](../images/listings.png)
 ![Get_Data](../images/get.png)
