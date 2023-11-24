@@ -28,10 +28,10 @@ The aim of this exercise will be to produce views and a dashboard answering the 
 
 What is the:
 
-1. Total balance across all accounts
+1. Total balance across all accounts *hint use the ```ACCOUNTS``` table*
 2. Number of accounts with a balance less then $100K
 3. CDIC Insured Balance Exposure ($) *hint: only amounts upto 100K are insured*
-4. Balance by account type and insurance eligibility *hint: look at the INSURANCE_DETERMINTATION table to figure out ineligibilty code and PRODUCT_CODE table to get account type description*
+4. Balance by account type and insurance eligibility *hint: look at the ```INSURANCE_DETERMINTATION``` table to figure out ineligibilty code and ```PRODUCT_CODE``` table to get account type description*
 5. Balance by registration (registered vs non-registered)
 5. Balance by account type and registration type 
 6. Total balance by Canadian province 

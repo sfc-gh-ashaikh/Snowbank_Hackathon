@@ -6,7 +6,7 @@ However, most financial institutions have a more holistic approach for credit ri
 ## Bringing in Covid-19 data
 We will be using the COVID-19 Epidemiological Data by Starschema from the marketplace. The first thing you will need to do is bring that data in from the marketplace as shown in the image below. For the sake of subsequent scripts running without errors ensure you name the database ```STARSCHEMA_COVID19``` and grant it ```PUBLIC``` access. 
 
-![STARSCHEMA_COVID19](covid.png)
+![STARSCHEMA_COVID19](/images/covid.png)
 
 ## Create Covid-19 Risk Views
 Once you have installed the Covid dataset within your account. Create a new worksheet and run the following [script](/COVID%20Credit%20RIsk/snowbank_covid_credit_risk.sqlsnowbank_covid)
@@ -29,6 +29,8 @@ Using the views created above along with another tables you see fit you will nee
 6. Oustanding balance by state and product
 7. Confirmed covid cases and deaths per state
 8. Vaccination campaign per state (incl ```doses_admin_total```,```doses_shipped_total```,```total_population```)
+
+[Answers:](https://github.com/snowflakecorp/frostbytes/blob/main/Industry%20-%20Financial%20Services/Snowbank/Snowbank%20Holistic%20Credit%20Risk%20Analysis/40%20-%20analytics/2%20-%20Snowbank%20Covid-19%20Credit%20Risk/README.md) Only Snowflake employees have access to this. Rely on your SE if you get stuck anywhere. 
 
 ## Creating a Streamlist App
 
