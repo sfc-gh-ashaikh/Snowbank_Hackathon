@@ -1,5 +1,5 @@
 # Dynamic DevOps
-In this scenario we need to give our Dev access to the ACCOUNTS data to add a new column, however we don't want them to directly work on the data unmasked in the PROD environment. We need to make a dedicated DEV environment. We also set up data masking to show how we can give data to our developers without letting them see PII.
+In this scenario we need to give our Dev access to the ```ACCOUNTS``` data to add a new column, however we don't want them to directly work on the data unmasked in the PROD environment. We need to make a dedicated DEV environment. We also set up data masking to show how we can give data to our developers without letting them see PII.
 
 In this scenario, CDIC Reporting just changed their requirement on the data file to be provided and added an additional column account_type_code.
 
