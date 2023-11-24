@@ -1,4 +1,4 @@
-# Lloyds Snowbank Hackathon
+# Snowbank Hackathon
 
 ## Snowbank Overview
 The Snowbank Financial Services Hackathon is built around a fictitious US & Canada bank, Snowbank which offers retail banking products to its 50M strong customer base in the US & Canada. Its business spans banking products (Chequing accounts, Saving accounts, Registered accounts) and also had a lending business to personal and commercial customers with a range of credit products (Credit Cards, Line of Credits, Mortgages).
