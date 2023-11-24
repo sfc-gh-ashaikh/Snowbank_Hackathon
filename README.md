@@ -19,6 +19,8 @@ Before we can begin, everyone will need to create a trial account and share thei
 
 ![Account_Identifier](/images/account_id.png)
 
+## Hackathon Guide
+
 **Below is a guide of hackathon scenarios for you to work through:**
   1. [Setup your account](Account%20Setup/README.md) by following the steps higlight in this setup script. This will create some roles, permissions and objects neccessary for you to use as you progress through the day. 
   2. [Loading data](Loading%20Data/README.md) This dataset contains 50 million records of bank account records spread across CSV files to be used as part of analysis and reporting.
