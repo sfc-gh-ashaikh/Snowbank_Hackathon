@@ -16,6 +16,7 @@ Before we can begin, everyone will need to create a trial account and share thei
 - **Region:** EU (Ireland)
 
 2. Share your account identifier so that Snowflake is able to create a share of part of the Snowbank with yourself. You can locate the account identifier as follows:
+
 ![Account_Identifier](/images/account_id.png)
 
 **Below is a guide of hackathon scenarios for you to work through:**
