@@ -30,3 +30,7 @@ Using the views created above along with another tables you see fit you will nee
 7. Confirmed covid cases and deaths per state
 8. Vaccination campaign per state (incl ```doses_admin_total```,```doses_shipped_total```,```total_population```)
 
+## Creating a Streamlist App
+
+
+
