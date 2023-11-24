@@ -8,6 +8,16 @@ The Snowbank Financial Services Hackathon is built around a fictitious US & Cana
 
 The base data model is quite solid, and can be expanded to support additional use cases (Customer 360), but also regionalized by changing data in tables according to the scenario you want to customize it for.
 
+## Prerequisites
+Before we can begin, everyone will need to create a trial account and share their account identifier to ensure the account shares are setup. 
+1. If you haven't already please [create a trial account](https://signup.snowflake.com/) with the following settings:
+- Edition: Enterprise
+- Cloud Provider: AWS
+- Region: EU (Ireland)
+
+2. Share your account identifier so that Snowflake is able to create a share of part of the Snowbank with yourself. You can locate the account identifier as follows:
+[Account_Identifier](/images/account_id.png)
+
 **Below is a guide of hackathon scenarios for you to work through:**
   1. [Setup your account](Account%20Setup/README.md) by following the steps higlight in this setup script. This will create some roles, permissions and objects neccessary for you to use as you progress through the day. 
   2. [Loading data](Loading%20Data/README.md) This dataset contains 50 million records of bank account records spread across CSV files to be used as part of analysis and reporting.
