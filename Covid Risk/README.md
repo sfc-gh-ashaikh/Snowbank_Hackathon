@@ -34,5 +34,25 @@ Using the views created above along with another tables you see fit you will nee
 
 ## Creating a Streamlist App
 
+Streamlit is an open-source Python library that makes it easy to create and share custom web apps for machine learning and data science. By using Streamlit you can quickly build and deploy powerful data applications. 
+
+Streamlit in Snowflake helps developers securely build, deploy, and share Streamlit apps on Snowflake’s data cloud. Using Streamlit in Snowflake, you can build applications that process and use data in Snowflake without moving data or application code to an external system.
+
+We are going to create a basic streamlit application that helps us visualise some of the COVID credit risk views that we have created. Follow the steps to create your first streamlit app:
+
+1. Ensure you have a role that has access to the ```SNOWBANK.ANALYTICS``` schema we are going to use. 
+2. Navigate to the **Streamlit** tab in the Snowsight UI menu
+3. Click on **+ Streamlit App** button to create a new streamlit app 
+4. Create the app with the following settings, choose whatever name you'd like to call it
+
+![streamlit_app](/images/streamlit_app.png)
+
+5. Copy paste the template code that can be found in [streamlit_app.py](/Covid%20Risk/streamlist_app.py) to help you get started and guide you through a few steps.
+
+You will notice that by using Streamlit in Snowflake, it already takes care of authentication and connection to Snowflake for you. 
+
+Use the [Streamlit documention](https://docs.streamlit.io/library/get-started) to help you build your application.
+
+
 
 
