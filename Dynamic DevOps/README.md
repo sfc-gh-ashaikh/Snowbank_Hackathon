@@ -18,6 +18,14 @@ The first thing we are going to do is ensure the right guard rails and masking p
 7. Grant all database, table, schema permissions to ```BANK_DEV_ROLE``` on ```SNOWBANK_DEV```
 8. Verify the differences in what masked/unmasked data the ```BANK_ENGINEER_ROLE``` and ```BANK_DEV_ROLE``` can see
 9. Add a new column called ```account_type_code``` to the ```ACCOUNTS``` table in ```SNOWBANK_DEV``` where ```account_type_code=product_code```
-10. Delete the developer sandbox environment using a more privileged role.
+10. Replace the old ```ACCOUNTS``` table with the **new** ```ACCOUNTS``` table
+11. Delete the developer sandbox environment using a more privileged role.
+12. Drop the ```ACCOUNTS``` table and use time travel to reinstate it. 
 
- We have now used a simple example to enforce data masking as well as giving developers a quick and easy way to make changes to the data in a non-production environment. Feel feel play around more with roles or move on to the next part.
+ We have now used a simple example to enforce data masking as well as giving developers a quick and easy way to make changes to the data in a non-production environment. Feel feel play around more with roles or any other data transformations you may do in your job or move on to the next part.
+
+ Documentation: 
+[https://docs.snowflake.com/en/user-guide/security-column-ddm-use](https://docs.snowflake.com/en/user-guide/security-column-ddm-use)
+[https://docs.snowflake.com/en/user-guide/security-access-control-privileges](https://docs.snowflake.com/en/user-guide/security-access-control-privileges)
+[https://docs.snowflake.com/en/user-guide/data-time-travel](https://docs.snowflake.com/en/user-guide/data-time-travel)
+

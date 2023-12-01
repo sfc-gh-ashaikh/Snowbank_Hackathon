@@ -8,7 +8,7 @@ USE SCHEMA SNOWBANK.ANALYTICS;
 USE WAREHOUSE SNOWBANK_ANALYTICS_WH;
 
 ------------------------------------
--- COVID19 VACCINATION VIEW view
+-- COVID19 VACCINATION VIEW 
 ------------------------------------
 
 CREATE OR REPLACE SECURE VIEW COVID19_INCVACCINE_US_VW AS
@@ -22,7 +22,6 @@ with daily_cases as (
                       sum( case when case_type = 'Recovered' then cases else 0 end) as Recovered_Cases
                       from starschema_covid19.public.jhu_covid_19 c
         where country_region='United States'
-        --and state = 'NJ'
         and date > dateadd(day,-7, '2023-03-09')
         group by country_region, state, date
 )

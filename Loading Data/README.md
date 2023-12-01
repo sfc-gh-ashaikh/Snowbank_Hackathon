@@ -28,6 +28,9 @@ create or replace TABLE ACCOUNTS_RAW (
 4. Load the data into the table using Snowflake's **COPY INTO** command
 5. Truncate the table and increase the warehouse size to a large and repeat the loading of data into the ACCOUNTS table. Did you notice any difference in speed?
 
+Documentation: 
+[https://docs.snowflake.com/en/user-guide/data-load-s3-copy](https://docs.snowflake.com/en/user-guide/data-load-s3-copy) Ignore using any AWS Key credentials as the bucket has been made public for simplication.
+[https://docs.snowflake.com/en/user-guide/data-load-transform](https://docs.snowflake.com/en/user-guide/data-load-transform)
 
 ## Bring in the rest of the Snowbank data via Snowflake Share
 Everyone should have a Snowflake Hackathon data share showing up in their private sharing tab as shown below. Make sure to click **Get** and bring this data into your account. You will be using this data to join with the analytics data to create insights. You can name this database **SNOWBANK_HACKATHON** as shown below.

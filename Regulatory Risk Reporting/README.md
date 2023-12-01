@@ -41,3 +41,5 @@ The idea of this exercise is to get a feel for joining data in Snowflake and cre
 
 [Answers:](https://github.com/snowflakecorp/frostbytes/tree/main/Industry%20-%20Financial%20Services/Snowbank/Snowbank%20Retail%20Banking/40%20-%20analytics) Only Snowflake employees have access to this. Rely on your SE if you get stuck anywhere. 
 
+Documentation:
+[https://docs.snowflake.com/en/user-guide/ui-snowsight-dashboards](https://docs.snowflake.com/en/user-guide/ui-snowsight-dashboards)
