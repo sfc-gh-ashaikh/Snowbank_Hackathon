@@ -5,7 +5,7 @@ Before we begin our journey into exploring the data we are going to setup some i
 The first thing to set your role to **ACCOUNTADMIN** and create 2 virtual warehouses (this can be done via the UI or programtically)
 
 1. **SNOWBANK_LOAD_WH**
-2. **SNOWBANK_TASK_WH**
+2. **SNOWBANK_ANALYTICS_WH**
 
 Ensure both warehouses are created as small and that the auto-suspend and auto-resume parameters are enabled. We will later grant permissions to different roles to use these warehouses in the setup script.
 
