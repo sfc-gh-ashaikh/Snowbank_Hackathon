@@ -4,7 +4,7 @@ Before we can do any analysis and reporting we need to bring the data into our S
 ## Load Accounts Data
 The first thing we are going to do is load in our accounts data. The bank has 50 Million accounts and these are all spread over multiple CSV files that are held in an external stage. Complete the following steps to load the Accounts data in:
 
-1. Create an stage using your **RAW** schema pointing to **s3://snowbank-hackathon/accounts_data/**
+1. Create an stage using your **ANALTYICS** schema pointing to **s3://snowbank-hackathon/accounts_data/**
 2. Crate a CSV file format for the files. *hint: don't forget use a paramter to handle the gzip compression*
 3. Create an **ACCOUNTS** table using the **ANALYTICS** Schema
 ```
