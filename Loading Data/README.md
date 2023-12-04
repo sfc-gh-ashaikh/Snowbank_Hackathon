@@ -31,7 +31,9 @@ create or replace TABLE ACCOUNTS_RAW (
 
 Documentation: 
 [https://docs.snowflake.com/en/user-guide/data-load-s3-copy](https://docs.snowflake.com/en/user-guide/data-load-s3-copy) Ignore using any AWS Key credentials as the bucket has been made public for simplication.
+
 [https://docs.snowflake.com/en/user-guide/data-load-transform](https://docs.snowflake.com/en/user-guide/data-load-transform)
+
 [Loading Semi-Structured Data Guide](https://quickstarts.snowflake.com/guide/getting_started_with_snowflake/#6)
 
 ## Bring in the rest of the Snowbank data via Snowflake Share
