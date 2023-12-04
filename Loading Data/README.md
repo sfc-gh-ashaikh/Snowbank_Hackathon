@@ -30,11 +30,12 @@ create or replace TABLE ACCOUNTS_RAW (
 6. **BONUS STEP** Load in some sample customer data from a json file into a table called **CUSTOMER**. Try loading it in via the UI using the [file](/Loading%20Data/customer_data.json) provided and/or try loading it progrmatically from an external stage located at: **s3://snowbank-hackathon/customer_data/**
 
 Documentation: 
+
 [https://docs.snowflake.com/en/user-guide/data-load-s3-copy](https://docs.snowflake.com/en/user-guide/data-load-s3-copy) Ignore using any AWS Key credentials as the bucket has been made public for simplication.
 
 [https://docs.snowflake.com/en/user-guide/data-load-transform](https://docs.snowflake.com/en/user-guide/data-load-transform)
 
-[Loading Semi-Structured Data Guide](https://quickstarts.snowflake.com/guide/getting_started_with_snowflake/#6)
+[Loading JSON semi-structured data guide](https://quickstarts.snowflake.com/guide/getting_started_with_snowflake/#6)
 
 ## Bring in the rest of the Snowbank data via Snowflake Share
 Everyone should have a Snowflake Hackathon data share showing up in their private sharing tab as shown below. Make sure to click **Get** and bring this data into your account. You will be using this data to join with the analytics data to create insights. You can name this database **SNOWBANK_HACKATHON** as shown below.

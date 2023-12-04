@@ -25,7 +25,10 @@ The first thing we are going to do is ensure the right guard rails and masking p
  We have now used a simple example to enforce data masking as well as giving developers a quick and easy way to make changes to the data in a non-production environment. Feel feel play around more with roles or any other data transformations you may do in your job or move on to the next part.
 
  Documentation: 
+
 [https://docs.snowflake.com/en/user-guide/security-column-ddm-use](https://docs.snowflake.com/en/user-guide/security-column-ddm-use)
+
 [https://docs.snowflake.com/en/user-guide/security-access-control-privileges](https://docs.snowflake.com/en/user-guide/security-access-control-privileges)
+
 [https://docs.snowflake.com/en/user-guide/data-time-travel](https://docs.snowflake.com/en/user-guide/data-time-travel)
 

@@ -51,8 +51,10 @@ We are going to create a basic streamlit application that helps us visualise som
 
 You will notice that by using Streamlit in Snowflake, it already takes care of authentication and connection to Snowflake for you. 
 
-Use the following documentation to help you build your application.
+Use the following documentation to help you build your application:
+
 [Streamlit documention](https://docs.streamlit.io/library/get-started) 
+
 [Snowpark with Python and Streamlit](https://quickstarts.snowflake.com/guide/getting_started_with_snowpark_for_python_streamlit/#0)
 
 
