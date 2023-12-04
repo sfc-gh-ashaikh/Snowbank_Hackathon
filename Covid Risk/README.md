@@ -9,7 +9,7 @@ We will be using the COVID-19 Epidemiological Data by Starschema from the market
 ![STARSCHEMA_COVID19](/images/covid.png)
 
 ## Create Covid-19 Risk Views
-Once you have installed the Covid dataset within your account. Create a new worksheet and run the following [script](/COVID%20Credit%20RIsk/snowbank_covid_credit_risk.sqlsnowbank_covid)
+Once you have installed the Covid dataset within your account. Create a new worksheet and run the following [script](/Covid%20Risk/snowbank_covid_credit_risk.sql)
 
 This script will create the following views:
 - ```COVID19_INCVACCINE_US_VW```: a Covid-19 vaccination view as of the most recent date across the US
