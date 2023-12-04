@@ -32,3 +32,5 @@ The first thing we are going to do is ensure the right guard rails and masking p
 
 [https://docs.snowflake.com/en/user-guide/data-time-travel](https://docs.snowflake.com/en/user-guide/data-time-travel)
 
+[Sample code from Zero to Snowflake](https://quickstarts.snowflake.com/guide/getting_started_with_snowflake/#8)
+
