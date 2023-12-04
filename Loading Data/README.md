@@ -37,6 +37,8 @@ Documentation:
 
 [Loading JSON semi-structured data guide](https://quickstarts.snowflake.com/guide/getting_started_with_snowflake/#6)
 
+[Zero to Snowflake](https://quickstarts.snowflake.com/guide/getting_started_with_snowflake/#4)
+
 ## Bring in the rest of the Snowbank data via Snowflake Share
 Everyone should have a Snowflake Hackathon data share showing up in their private sharing tab as shown below. Make sure to click **Get** and bring this data into your account. You will be using this data to join with the analytics data to create insights. You can name this database **SNOWBANK_HACKATHON** as shown below.
 
